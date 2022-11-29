@@ -1,0 +1,65 @@
+const simpleContract = artifacts.require("simpleContract");
+
+/*
+ * uncomment accounts to access the test accounts made available by the
+ * Ethereum client
+ * See docs: https://www.trufflesuite.com/docs/truffle/testing/writing-tests-in-javascript
+ */
+contract("simpleContract", async function (/* accounts */) {
+
+  const deployedContract = await simpleContract.deployed();
+  
+  it("~~ Init ~~", async function () {
+
+    const salamMessage = await deployedContract.salam();
+
+    console.log(deployedContract.address);
+    console.log(salamMessage);
+
+    assert.isNotEmpty(deployedContract.address);
+    assert(salamMessage == 'Assalamulaikum~Dunia');
+
+    const message = "let's-Go!";
+    await deployedContract.setData(message);
+    return assert(message,await deployedContract.getData());
+
+  });
+
+  // it("~~ Set Get Data Test ~~", async function () {
+
+  // });
+
+
+});
+https://github.com/rkalis/truffle-assertions
+https://trufflesuite.com/blog/develop-using-fluidity-truffle-box/#truffle-assertions
+Pascal Case : GooGooGoo
+Camel Case : gooGooGoo
+Kebab Case : goo-goo-goo
+Snake Case : goo_goo_goo
+
+
+
+const a = 19;
+const b = 10
+
+const c = a + b;
+
+serial execution
+
+
+under async 
+...execute benda lain dulu sementara tggu
+const a = await FROMPISHANGCHEESE-HARGA-satu-4ringgit.com;
+
+const b = 10
+const bla = 10;
+const foo = 10;
+
+const c = a + b;
+
+const d = bla + foo;
+console.log('%c d','color: orange',d); // dia akan excute ni dulu
+
+console.log('%c c','color: orange',c); // benda ni kemundian 
+parralel execution

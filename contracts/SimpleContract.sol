@@ -16,6 +16,15 @@ contract SimpleContract {
     
     Kucing[] kucings;
 
+    function setData(string memory _data) public {
+        data = _data;
+    }
+
+    function getData() public view returns (string memory) {
+        return data;
+    }
+
+
     function addKucing(string memory _name) public {
         Kucing memory newKucing = Kucing(_name, nextId++);
         kucings.push(newKucing);
@@ -42,11 +51,5 @@ contract SimpleContract {
         return "Assalamulaikum~Dunia";
     }
 
-    function setData(string memory _data) public {
-        data = _data;
-    }
 
-    function getData() public view returns (string memory) {
-        return data;
-    }
 }

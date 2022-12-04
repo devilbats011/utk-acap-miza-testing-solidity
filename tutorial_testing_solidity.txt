@@ -1,9 +1,0 @@
-https://www.youtube.com/watch?v=lGvdV1mOXpA
-
-https://www.youtube.com/watch?v=b2VInFwZmNw&t=489s
-
-
-https://www.youtube.com/watch?v=M-w6dDDhu6w
-
-
-https://stackoverflow.com/questions/66946018/truffle-migrate-reset-without-loosing-data#:~:text=By%20running%20truffle%20migrate%20you,that%20has%20empty%20storage%20slots.

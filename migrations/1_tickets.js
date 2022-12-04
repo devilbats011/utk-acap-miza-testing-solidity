@@ -1,7 +1,7 @@
-const Tickets = artifacts.require("Tickets");
+const tickets = artifacts.require("./Tickets.sol");
 
-module.export = function (_deployer) {
-    _deployer.deploy(Tickets);
+module.exports = function (_deployer) {
+    _deployer.deploy(tickets);
 };
 
 

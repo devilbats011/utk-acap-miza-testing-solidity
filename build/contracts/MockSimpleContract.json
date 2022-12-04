@@ -7101,12 +7101,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x28d06A281e188698C55cc79630a6E2Ab66bB5d70",
-      "transactionHash": "0x05761f879d58d6a5d07cb7cfc9afd6aa3f80c3b6e0027d1eb5dba8fc3f2f8584"
+      "address": "0x06d6C87C4c0cfDC194ab1a58bBfa11E6e05e8d59",
+      "transactionHash": "0xe84b2e126e7b16ab9d18e55aa08e5999e7b6d8fe0dca862f9646203b92faef90"
     }
   },
   "schemaVersion": "3.4.11",
-  "updatedAt": "2022-11-30T10:12:12.517Z",
+  "updatedAt": "2022-12-04T16:00:26.587Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

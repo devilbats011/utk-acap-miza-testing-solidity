@@ -1,3 +1,6 @@
+type ! utk snippet html5
+  - option+ command + t to close all others in vscode
+
 https://www.youtube.com/watch?v=FYhZPovlGZQ&list=PL6x5Q-Sj_BlaEjP9Ul1mFrbC_PkXq4aVk&index=2&ab_channel=WebDevJunkie
 
 

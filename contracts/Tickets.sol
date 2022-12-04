@@ -2,10 +2,9 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
-uint256 constant TOTAL_TICKETS = 10;
-
 contract Tickets {
     address public owner = msg.sender;
+    uint256 constant public TOTAL_TICKETS = 10;
 
     struct Ticket {
         uint256 price;

@@ -1,6 +1,6 @@
 # UTK ACAP MIZA SOLIDITY
 
-`Dimulakan dgn Bismillah  بسم الله `  :)
+`Dimulakan dgn Bismillah  بسم الله   :)`
 <br><br>
 ## For Terminal Linux / git bash
 ```bash
